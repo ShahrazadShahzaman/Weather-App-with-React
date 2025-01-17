@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow:auto;
+}
+.home{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px;
+height: 100vh;
+background: linear-gradient(to right, #0C788C, #F28AE8);
+color: #333;
+}
+.About {
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+padding: 40px 20px;
+height: 100vh;
+background: linear-gradient(to right, #0C788C, #F28AE8);  
+color: #eceff1;
+}
+.About h1 {
+font-size: 2.5em;
+color: #F0F0F0; 
+margin-bottom: 20px;
+}  
+.About p {
+font-size: 1.2em;
+line-height: 1.6;
+max-width: 800px;
+margin: 0 auto;
+color: #F0F0F0;
+}
+  
+.About p:hover {
+color: #0A3362; 
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
