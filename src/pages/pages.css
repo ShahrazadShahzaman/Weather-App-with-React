@@ -41,6 +41,10 @@ color: #F0F0F0;
 .About p:hover {
 color: #0A3362; 
 }
+.notfound {
+background-color: black;
+color: red;
+}
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
