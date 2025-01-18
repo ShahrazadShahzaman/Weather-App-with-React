@@ -7,12 +7,11 @@ import "./components/components.css";
 import "./pages/pages.css";
 const App = () => {
   return (
-    <Router>
-      <Header />
-      <AppRoutes />
-      <Footer/>
-    </Router>
+        <Router>
+            <Header />
+            <AppRoutes />
+            <Footer/>
+        </Router>
   );
 };
-
 export default App;

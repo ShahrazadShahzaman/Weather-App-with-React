@@ -1,16 +1,19 @@
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    overflow:auto;
+* {
+box-sizing: border-box;
 }
+html,body{
+margin: 0;
+padding: 0;
+height: 100%;
+overflow:hidden;
+} 
 .home{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 padding: 20px;
-height: 100vh;
+height:calc(100vh - 60px - 40px);
 background: linear-gradient(to right, #0C788C, #F28AE8);
 color: #333;
 }
@@ -44,8 +47,14 @@ color: #0A3362;
 .notfound {
 background-color: black;
 color: red;
+text-align: center;
+padding: 20%;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
 }
-@keyframes gradientAnimation {
+/* @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
     }
@@ -55,4 +64,4 @@ color: red;
     100% {
         background-position: 0% 50%;
     }
-}
+} */
